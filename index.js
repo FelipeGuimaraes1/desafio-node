@@ -1,8 +1,8 @@
 const express = require("express");
+const cors = require("cors");
 const uuid = require("uuid");
 const port = 3000;
 const app = express();
-const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
